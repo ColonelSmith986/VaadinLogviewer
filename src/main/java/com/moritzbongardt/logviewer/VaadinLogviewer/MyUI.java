@@ -38,6 +38,8 @@ public class MyUI extends UI {
         layout.addComponents(name, button);
         
         setContent(layout);
+        
+        // new comment
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
