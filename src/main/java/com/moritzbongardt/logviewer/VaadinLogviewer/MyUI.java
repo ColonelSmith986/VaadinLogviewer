@@ -40,6 +40,8 @@ public class MyUI extends UI {
         setContent(layout);
         
         // new comment
+        
+        // and another one
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
